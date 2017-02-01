@@ -3,7 +3,7 @@ body
   /*padding-top: 50px;*/
   font-family: 'Open Sans', sans-serif;
   background-color: #1c1c1d;
-  color: #969696;
+  color: #cecece;
 }
 
 .navbar-toggleable-md .navbar-nav .nav-link {
@@ -42,11 +42,18 @@ body
 h6
 {
   font-size: 0.9rem;
+  color: #969696;
 }
 
 h4 
 {
   margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+h5
+{
+  font-size: 1.1rem;
 }
 
 .navbar 
