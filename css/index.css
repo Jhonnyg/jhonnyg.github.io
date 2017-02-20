@@ -39,6 +39,17 @@ body
 }
 */
 
+a 
+{
+  color: #E0E0E0;
+}
+
+a:hover
+{
+  text-decoration: none;
+  color: #E0E0E0;
+}
+
 h6
 {
   font-size: 0.9rem;
@@ -84,4 +95,69 @@ button:focus
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open>.nav-link {
     color: #E0E0E0;
+}
+
+.row
+{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.project-thumbnail
+{
+  width: 256px;
+  height: 256px;
+  min-width: 256px;
+  min-height: 256px;
+  max-width: 256px;
+  max-height: 256px;
+  margin: 4px;
+  padding: 0px;
+}
+
+.project-thumbnail img, iframe
+{
+  padding: 4px;
+  border: 2px solid #E0E0E0;
+  height: 100%; width: 100%;
+
+  -webkit-filter: grayscale(65%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(65%);
+
+  -webkit-transition: border .3s ease-in-out;
+  -moz-transition: border .3s ease-in-out;
+  transition: border .3s ease-in-out;
+}
+
+.project-wrapper
+{
+
+}
+
+footer { 
+  background-color: black; 
+  min-height: 160px; 
+  font-family: 'Open Sans', sans-serif; 
+}
+
+.contact-padding
+{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.contact-padding i
+{
+  padding-right: 4px;
+}
+
+.row-thumbnail
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact a
+{
+  font-size: 0.8rem;
 }
